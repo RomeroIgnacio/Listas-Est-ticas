@@ -193,7 +193,14 @@ public:
 
 void menu()
 {
-    cout << endl << "Menu:" << endl << " " << AGREGAR << ") Agregar Empleado" << endl << " " << BUSCAR << ") Buscar Empleado" << endl << " " << ELIMINAR << ") Eliminar Empleado" << endl << " " << INSERTAR << ") Insertar Empleado" << endl << " " << MOSTRAR << ") Mostrar Empleados" << endl << " " << SALIR << ") Salir" << endl << "Ingresa una opción: ";
+    cout << endl << "Menu:" << endl << " " << 
+    AGREGAR << ") Agregar Empleado" << endl << " " << 
+    BUSCAR << ") Buscar Empleado" << endl << " " << 
+    ELIMINAR << ") Eliminar Empleado" << endl << " " << 
+    INSERTAR << ") Insertar Empleado" << endl << " " << 
+    MOSTRAR << ") Mostrar Empleados" << endl << " " << 
+    SALIR << ") Salir" << endl << 
+    "Ingresa una opción: ";
 }
 
 int main()
